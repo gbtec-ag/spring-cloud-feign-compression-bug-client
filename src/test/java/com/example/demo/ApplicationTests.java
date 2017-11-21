@@ -21,6 +21,10 @@ public class ApplicationTests {
         assertThat(ctx).isNotNull();
     }
 
+    // FIXME To get this test executed successful we need to
+    // - add the io.github.openfeign:feign-httpclient dependency to the classpath
+    // - add the ApacheHttpClient @Bean to the application context
+
     // @Test
     // public void apacheHttpClientBeanAvailale() {
     // FeignContext feignContext = ctx.getBean(FeignContext.class);
